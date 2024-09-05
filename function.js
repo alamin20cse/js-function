@@ -22,24 +22,49 @@
 
 
 
-function sums()
+// function sums()
+// {
+//     var a=10;
+//     var b=20;
+//     var s=a+b;
+//    return s;
+// }
+// var op=sums();
+// console.log(op);
+
+
+// function sum(a,b)
+// {
+    
+//     var s=a+b;
+//    return s;
+// }
+// var op2= sum(2,3);
+// console.log(op2);
+// var op3= sum(5,5);
+// console.log(op3);
+
+
+
+
+function number(n)
 {
-    var a=10;
-    var b=20;
-    var s=a+b;
-   return s;
+   
+   return n;
 }
-var op=sums();
+var op=number([5,10,3]);
 console.log(op);
 
 
-function sum(a,b)
+
+function numbertow(inputarr)
 {
-    
-    var s=a+b;
-   return s;
+   
+    for(var i of inputarr)
+    {
+       console.log(i);
+
+    }
+  
 }
-var op2= sum(2,3);
-console.log(op2);
-var op3= sum(5,5);
-console.log(op3);
+numbertow([5,10,3]);
