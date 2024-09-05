@@ -47,13 +47,13 @@
 
 
 
-function number(n)
-{
+// function number(n)
+// {
    
-   return n;
-}
-var op=number([5,10,3]);
-console.log(op);
+//    return n;
+// }
+// var op=number([5,10,3]);
+// console.log(op);
 
 
 
