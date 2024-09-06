@@ -173,3 +173,11 @@
 // console.log(Math.random()*10);
 // console.log(Math.round(Math.random()*10));
 
+
+
+// for (var i = 0; i < 5; i++) {
+//     setTimeout(function () {
+//     console.log(i);
+//  }, 100);
+// }
+console.log(Math.ceil(-2.45));
