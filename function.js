@@ -180,4 +180,114 @@
 //     console.log(i);
 //  }, 100);
 // }
-console.log(Math.ceil(-2.45));
+// console.log(Math.ceil(-2.45));
+
+
+
+
+
+// ================part 2=========
+// const arr=[10,3,78,55,56,43,3];
+// var mx=arr[0];
+// for(i of arr)
+// {
+//     if(i>mx)
+//     {
+//         mx=i;
+//     }
+
+// }
+// console.log(mx);
+
+
+
+
+// function getcheap(phones)
+// {
+//     let mn=phones[0];
+//     for(i of phones)
+//     {
+//         if(mn.price>i.price)
+//         {
+//             mn=i;
+//         }
+//     }
+//     return mn;
+
+//     // console.log(phones);
+// }
+
+
+
+
+// const phones=[
+//     {name:'samsung',price:2000,cam:'12'},
+//     {name:'xomai',price:1040,cam:'12'},
+//     {name:'samsung',price:100,cam:'12'},
+//     {name:'samsung',price:1800,cam:'12'},
+// ];
+// const restult=getcheap(phones);
+// // console.log("Cheapest phone is :   "+ restult);
+// console.log("Cheapest phone is :   ", restult);
+
+
+
+
+
+
+
+
+
+// function getcheap(phones)
+// {
+//     let sum=0;
+//     for(i of phones)
+//     {
+//         sum=sum+i.price
+        
+//     }
+//     return sum;
+
+//     // console.log(phones);
+// }
+
+
+
+
+// const phones=[
+//     {name:'samsung',price:300,cam:'12'},
+//     {name:'xomai',price:100,cam:'12'},
+//     {name:'samsung',price:700,cam:'12'},
+//     {name:'samsung',price:1200,cam:'12'},
+// ];
+// const restult=getcheap(phones);
+// // console.log("Cheapest phone is :   "+ restult);
+// console.log("Cheapest phone is :   ", restult);
+
+
+function add(a,b)
+{
+    return a+b;
+}
+function sub(a,b)
+{
+    return a-b;
+}
+function op(a,b,operation)
+{
+    if(operation==='add')
+    {
+       return add(a,b);
+    }
+    else if(operation==='sub')
+    {
+        return sub(a,b);
+    }
+}
+
+
+var r1=op(10,5,"add");
+console.log(r1);
+var r2=op(10,5,'sub');
+console.log(r2);
+
